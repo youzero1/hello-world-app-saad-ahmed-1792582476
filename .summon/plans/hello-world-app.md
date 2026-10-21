@@ -5,6 +5,7 @@ option: simple-static :: Simple static page :: A single elegant centered "Hello,
 option: personalized-greeting :: Personalized greeting :: Visitors type their name and get a custom hello.
 option: multi-language :: Multi-language greetings :: Browse "Hello, World!" in several languages.
 recommended: simple-static
+selected: simple-static
 ---
 
 # Hello World app
