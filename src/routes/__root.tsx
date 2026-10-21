@@ -5,10 +5,14 @@ export const Route = createRootRoute({
   notFoundComponent: NotFound,
 });
 
-// The app shell: anything rendered here (nav, footer, providers) appears on every page.
+// The app shell: a full-screen canvas that centers every page's content.
 // <Outlet /> is where the matched page renders.
 function RootLayout() {
-  return <Outlet />;
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center bg-stone-50 text-slate-900 antialiased">
+      <Outlet />
+    </div>
+  );
 }
 
 function NotFound() {

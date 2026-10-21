@@ -1,5 +1,5 @@
 ---
-status: pending
+status: implemented
 title: Hello World app
 option: simple-static :: Simple static page :: A single elegant centered "Hello, World!" page.
 option: personalized-greeting :: Personalized greeting :: Visitors type their name and get a custom hello.
